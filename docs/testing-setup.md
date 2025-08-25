@@ -80,3 +80,16 @@ Running 10 tests using 1 worker
     tests/e2e/routes.e2e.ts:12:5 › routes › navigate to /security ──────────────────────────────────
     tests/e2e/routes.e2e.ts:12:5 › routes › navigate to /settings ──────────────────────────────────
 ```
+
+## data-testid mapping
+
+| Route | Visible label/icon | data-testid | File:Line |
+|-------|-------------------|-------------|-----------|
+| /proposals | New Proposal | new-proposal-btn | src/pages/Proposals.tsx:226 |
+| /proposals | Delete | delete-proposal-btn | src/pages/Proposals.tsx:406 |
+| /documents | Upload Document | upload-agenda-btn | src/pages/Documents.tsx:266 |
+| /documents | Eye icon | preview-doc-btn | src/pages/Documents.tsx:428 |
+| /meetings | New Meeting | create-meeting-btn | src/pages/Meetings.tsx:148 |
+| /meetings | Start | start-meeting-btn | src/pages/Meetings.tsx:228 |
+| /settings | Save Changes | save-settings-btn | src/pages/Settings.tsx:190 |
+

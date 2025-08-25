@@ -141,11 +141,12 @@ export default function Meetings() {
             <PlayCircle className="mr-2 h-4 w-4" />
             Meeting Mode
           </Button>
-          <Button 
-            onClick={handleCreateMeeting}
-            disabled={isCreating}
-            aria-label="Create new meeting"
-          >
+            <Button
+              onClick={handleCreateMeeting}
+              disabled={isCreating}
+              aria-label="Create new meeting"
+              data-testid="create-meeting-btn"
+            >
             {isCreating ? (
               <>
                 <Plus className="mr-2 h-4 w-4 animate-spin" />
@@ -219,12 +220,13 @@ export default function Meetings() {
                         <Edit className="mr-1 h-3 w-3" />
                         Edit
                       </Button>
-                      <Button 
-                        size="sm"
-                        onClick={() => handleJoinMeeting(meeting.id, meeting.title)}
-                        disabled={isJoining}
-                        aria-label={`Join ${meeting.title}`}
-                      >
+                        <Button
+                          size="sm"
+                          onClick={() => handleJoinMeeting(meeting.id, meeting.title)}
+                          disabled={isJoining}
+                          aria-label={`Join ${meeting.title}`}
+                          data-testid="start-meeting-btn"
+                        >
                         {isJoining ? (
                           "Joining..."
                         ) : (

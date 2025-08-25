@@ -219,10 +219,11 @@ export default function Proposals() {
               </>
             )}
           </Button>
-          <Button 
+          <Button
             onClick={handleCreateProposal}
             disabled={isCreating}
             aria-label="Create new proposal"
+            data-testid="new-proposal-btn"
           >
             {isCreating ? (
               <>
@@ -399,9 +400,10 @@ export default function Proposals() {
                           Reject
                         </DropdownMenuItem>
                         <DropdownMenuSeparator />
-                        <DropdownMenuItem 
+                        <DropdownMenuItem
                           onClick={() => handleDeleteProposal(proposal.id, proposal.title)}
                           className="text-destructive"
+                          data-testid="delete-proposal-btn"
                         >
                           <Trash2 className="mr-2 h-4 w-4" />
                           Delete

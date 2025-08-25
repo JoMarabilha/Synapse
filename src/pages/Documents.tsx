@@ -259,11 +259,12 @@ export default function Documents() {
               </Button>
             </>
           )}
-          <Button 
-            onClick={handleUploadClick}
-            disabled={isUploading}
-            aria-label="Upload new document"
-          >
+            <Button
+              onClick={handleUploadClick}
+              disabled={isUploading}
+              aria-label="Upload new document"
+              data-testid="upload-agenda-btn"
+            >
             {isUploading ? (
               <>
                 <Upload className="mr-2 h-4 w-4 animate-spin" />
@@ -419,12 +420,13 @@ export default function Documents() {
                       </TableCell>
                       <TableCell className="text-right">
                         <div className="flex items-center justify-end space-x-1">
-                          <Button 
-                            variant="ghost" 
-                            size="sm"
-                            onClick={() => setPreviewDocument(doc)}
-                            aria-label={`Preview ${doc.name}`}
-                          >
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => setPreviewDocument(doc)}
+                              aria-label={`Preview ${doc.name}`}
+                              data-testid="preview-doc-btn"
+                            >
                             <Eye className="h-4 w-4" />
                           </Button>
                           <Button 
