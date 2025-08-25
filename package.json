@@ -9,6 +9,9 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
+    "dev:debug": "vite --debug --force",
+    "preview:debug": "vite preview --debug",
+    "diag:env": "node -e \"console.log(process.versions)\"",
     "test": "vitest",
     "test:e2e": "playwright test"
   },
