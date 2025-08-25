@@ -93,3 +93,135 @@ Running 10 tests using 1 worker
 | /meetings | Start | start-meeting-btn | src/pages/Meetings.tsx:228 |
 | /settings | Save Changes | save-settings-btn | src/pages/Settings.tsx:190 |
 
+
+
+## Actions run
+
+```
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> vite_react_shadcn_ts@0.0.0 test:e2e
+> playwright test
+
+[2m[WebServer] [22mnpm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+Running 18 tests using 2 workers
+
+  ✘   1 tests/e2e/actions.e2e.ts:18:5 › actions › click new-proposal-btn (10ms)
+  ✘   2 tests/e2e/routes.e2e.ts:12:5 › routes › navigate to / (10ms)
+  ✘   4 tests/e2e/routes.e2e.ts:12:5 › routes › navigate to /documents (7ms)
+  ✘   3 tests/e2e/actions.e2e.ts:18:5 › actions › click save-proposal-btn (7ms)
+  ✘   6 tests/e2e/actions.e2e.ts:18:5 › actions › click delete-proposal-btn (8ms)
+  ✘   5 tests/e2e/routes.e2e.ts:12:5 › routes › navigate to /meetings (9ms)
+
+
+  1) tests/e2e/actions.e2e.ts:18:5 › actions › click new-proposal-btn ──────────────────────────────
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     npx playwright install-deps                      ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     apt-get install libatk1.0-0t64\                  ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+
+  2) tests/e2e/actions.e2e.ts:18:5 › actions › click save-proposal-btn ─────────────────────────────
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     npx playwright install-deps                      ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     apt-get install libatk1.0-0t64\                  ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+
+  3) tests/e2e/routes.e2e.ts:12:5 › routes › navigate to / ─────────────────────────────────────────
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     npx playwright install-deps                      ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     apt-get install libatk1.0-0t64\                  ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+
+  4) tests/e2e/routes.e2e.ts:12:5 › routes › navigate to /documents ────────────────────────────────
+
+    Error: browserType.launch: 
+    ╔══════════════════════════════════════════════════════╗
+    ║ Host system is missing dependencies to run browsers. ║
+    ║ Please install them with the following command:      ║
+    ║                                                      ║
+    ║     npx playwright install-deps                      ║
+    ║                                                      ║
+    ║ Alternatively, use apt:                              ║
+    ║     apt-get install libatk1.0-0t64\                  ║
+    ║         libatk-bridge2.0-0t64\                       ║
+    ║         libatspi2.0-0t64\                            ║
+    ║         libxcomposite1\                              ║
+    ║         libxdamage1\                                 ║
+    ║         libxfixes3\                                  ║
+    ║         libxrandr2\                                  ║
+    ║         libgbm1\                                     ║
+    ║         libxkbcommon0\                               ║
+    ║         libasound2t64                                ║
+    ║                                                      ║
+    ║ <3 Playwright Team                                   ║
+    ╚══════════════════════════════════════════════════════╝
+
+  4 failed
+    tests/e2e/actions.e2e.ts:18:5 › actions › click new-proposal-btn ───────────────────────────────
+    tests/e2e/actions.e2e.ts:18:5 › actions › click save-proposal-btn ──────────────────────────────
+    tests/e2e/routes.e2e.ts:12:5 › routes › navigate to / ──────────────────────────────────────────
+    tests/e2e/routes.e2e.ts:12:5 › routes › navigate to /documents ─────────────────────────────────
+  2 interrupted
+    tests/e2e/actions.e2e.ts:18:5 › actions › click delete-proposal-btn ────────────────────────────
+    tests/e2e/routes.e2e.ts:12:5 › routes › navigate to /meetings ──────────────────────────────────
+  12 did not run
+```
+
+### Broken actions
+- new-proposal-btn
+- save-proposal-btn
