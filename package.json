@@ -12,7 +12,8 @@
     "dev:debug": "vite --debug --force",
     "preview:debug": "vite preview --debug",
     "diag:env": "node -e \"console.log(process.versions)\"",
-    "test": "vitest",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest",
     "test:e2e": "playwright test"
   },
   "dependencies": {
