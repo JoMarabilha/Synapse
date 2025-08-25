@@ -9,8 +9,9 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest",
-    "test:e2e": "playwright test"
+    "test": "vitest run --passWithNoTests",
+    "test:e2e": "playwright test",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
