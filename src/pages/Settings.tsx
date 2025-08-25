@@ -187,7 +187,7 @@ export default function Settings() {
               <Input id="role" value={userProfile.role} disabled />
             </div>
           </div>
-          <Button onClick={handleProfileSave} disabled={isLoadingProfile}>
+          <Button onClick={handleProfileSave} disabled={isLoadingProfile} data-testid="save-settings-btn">
             {isLoadingProfile ? "Saving..." : "Save Changes"}
           </Button>
         </CardContent>
