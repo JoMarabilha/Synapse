@@ -1,0 +1,237 @@
+[
+  {
+    "file": "src/pages/Proposals.tsx",
+    "line": 369,
+    "rule": "a",
+    "component": "Proposals",
+    "ariaLabel": "Proposal actions",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" size=\"sm\" aria-label=\"Proposal actions\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/analytics/AnalyticsDashboard.tsx",
+    "line": 81,
+    "rule": "a",
+    "component": "AnalyticsDashboard",
+    "text": "",
+    "snippet": "<Button variant=\"outline\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/analytics/CustomDashboard.tsx",
+    "line": 110,
+    "rule": "a",
+    "component": "CustomDashboard",
+    "text": "",
+    "snippet": "<Button>",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/analytics/ReportBuilder.tsx",
+    "line": 238,
+    "rule": "a",
+    "component": "ReportBuilder",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/analytics/ReportBuilder.tsx",
+    "line": 242,
+    "rule": "a",
+    "component": "ReportBuilder",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/ActivityFeed.tsx",
+    "line": 129,
+    "rule": "a",
+    "component": "ActivityFeed",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/ActivityFeed.tsx",
+    "line": 133,
+    "rule": "a",
+    "component": "ActivityFeed",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/CollaborationPresence.tsx",
+    "line": 277,
+    "rule": "a",
+    "component": "CollaborationPresence",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/CommentSystem.tsx",
+    "line": 94,
+    "rule": "a",
+    "component": "CommentItem",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" size=\"sm\" className=\"h-6 w-6 p-0\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/CommentSystem.tsx",
+    "line": 183,
+    "rule": "a",
+    "component": "CommentItem",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" size=\"sm\" className=\"h-6 px-2\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/CommentSystem.tsx",
+    "line": 320,
+    "rule": "a",
+    "component": "CommentSystem",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/CommentSystem.tsx",
+    "line": 324,
+    "rule": "a",
+    "component": "CommentSystem",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/TeamManagement.tsx",
+    "line": 101,
+    "rule": "a",
+    "component": "TeamCard",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" size=\"sm\" className=\"h-8 w-8 p-0\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/collaboration/TeamManagement.tsx",
+    "line": 277,
+    "rule": "a",
+    "component": "TeamManagement",
+    "text": "",
+    "snippet": "<Button>",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/documents/DocumentFilters.tsx",
+    "line": 72,
+    "rule": "a",
+    "component": "DocumentFilters",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" className={cn( \"relative\", hasActiveFilters && \"border-primary\" )}>",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/layout/AppHeader.tsx",
+    "line": 60,
+    "rule": "a",
+    "component": "AppHeader",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" className=\"relative h-9 w-9 rounded-full\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/layout/MobileNav.tsx",
+    "line": 35,
+    "rule": "a",
+    "component": "MobileNav",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" size=\"sm\" className=\"md:hidden h-9 w-9 p-0\" >",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/notifications/NotificationCenter.tsx",
+    "line": 83,
+    "rule": "a",
+    "component": "NotificationItem",
+    "text": "",
+    "snippet": "<Button variant=\"link\" size=\"sm\" className=\"h-auto p-0 text-xs\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/notifications/NotificationCenter.tsx",
+    "line": 92,
+    "rule": "a",
+    "component": "NotificationItem",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" size=\"sm\" className=\"h-8 w-8 p-0\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/notifications/NotificationCenter.tsx",
+    "line": 155,
+    "rule": "a",
+    "component": "NotificationCenter",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" size=\"sm\" className=\"h-9 w-9 p-0 relative\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/notifications/NotificationCenter.tsx",
+    "line": 173,
+    "rule": "a",
+    "component": "NotificationCenter",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/notifications/NotificationCenter.tsx",
+    "line": 262,
+    "rule": "a",
+    "component": "NotificationCenter",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/notifications/NotificationCenter.tsx",
+    "line": 269,
+    "rule": "a",
+    "component": "NotificationCenter",
+    "text": "",
+    "snippet": "<Button variant=\"outline\" size=\"sm\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/ui/date-range-picker.tsx",
+    "line": 35,
+    "rule": "a",
+    "component": "DatePickerWithRange",
+    "text": "",
+    "snippet": "<Button id=\"date\" variant={\"outline\"} className={cn( \"w-[300px] justify-start text-left font-normal\"",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/workflow/WorkflowManager.tsx",
+    "line": 96,
+    "rule": "a",
+    "component": "WorkflowCard",
+    "text": "",
+    "snippet": "<Button variant=\"ghost\" size=\"sm\" className=\"h-8 w-8 p-0\">",
+    "reason": "missing onClick/asChild/href/to"
+  },
+  {
+    "file": "src/components/workflow/WorkflowManager.tsx",
+    "line": 279,
+    "rule": "a",
+    "component": "WorkflowManager",
+    "text": "",
+    "snippet": "<Button variant=\"outline\">",
+    "reason": "missing onClick/asChild/href/to"
+  }
+]
