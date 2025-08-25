@@ -17,8 +17,10 @@ test.describe('actions', () => {
   for (const { path, id } of actions) {
     test(`click ${id}`, async ({ page }, testInfo) => {
       await page.goto(base + path);
-      const btn = page.getByTestId(id);
-      if (await btn.count() === 0) test.skip();
+      const btns = page.getByTestId(id);
+      const count = await btns.count();
+      if (count === 0) test.skip();
+      const btn = count > 1 ? btns.first() : btns;
 
       const errors: string[] = [];
       page.on('pageerror', (err) => errors.push(String(err)));
